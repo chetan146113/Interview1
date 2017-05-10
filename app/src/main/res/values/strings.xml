@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Interview</string>
+
+    //button names
+    <string name="button1">Simple Questions</string>
+    <string name="button2">Tough Questions</string>
+    <string name="button3">Rate app</string>
+    <string name="button4">See other apps</string>
+
+
+    //Buttons of "question.xml"  file
+     <string name="buttonleft">Left</string>
+    <string name="buttonanswer">Answer</string>
+    <string name="buttonright">Right</string>
+
+    // Descriptions Of TextView
+
+    <string name="textview1">XX/</string>
+    <string name="textview2">YY</string>
+    <string name="textview3">Questions</string>
+    <string name="textview4">Answer</string>
+</resources>

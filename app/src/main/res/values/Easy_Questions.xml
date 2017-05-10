@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="easy_questions" >
+        <item>what is Android?</item>
+        <item>Describe Android application Architecture?</item>
+        <item>What is An Activity?</item>
+        <item>What is the APK format?</item>
+        <item>What is An Intent?</item>
+    </string-array>
+
+    <string-array name="easy_answers">
+        <item>Android is a stack of software for mobile devices which includes an Operating System, middleware and some key applications. The application executes within its own process and its own instance of Dalvik Virtual Machine.</item>
+        <item>Android application architecture has the following components.They are as follows −
+
+Services − It will perform background functionalities
+
+Intent − It will perform the inter connection between activities and the data passing mechanism
+
+Resource Externalization − strings and graphics
+
+Notification − light,sound,icon,notification,dialog box,and toast</item>
+        <item>Activity performs actions on the screen.If you want to do any operations, we can do with activity</item>
+        <item>The Android packaging key is compressed with classes,UI\'s, supportive assets and manifest.All files are compressed to a single file is called APK.</item>
+        <item>It is connected to either the external world of application or internal world of application ,Such as, opening a pdf is an intent and connect to the web browser.etc.</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:weightSum="100">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/index"
+        android:layout_weight="8">
+
+
+        <TextView
+            android:text="@string/textview1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView1"
+            android:textSize="60sp"
+            android:gravity="right|center"
+            android:textColor="#000000"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:text="@string/textview2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView2"
+            android:textSize="60sp"
+            android:gravity="left|center"
+            android:textColor="#000000"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/quest"
+        android:layout_weight="80">
+
+        <TextView
+            android:text="@string/textview3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="40dp"
+            android:paddingRight="20dp"
+            android:textSize="60sp"
+            android:textColor="#000000"
+            android:id="@+id/textView3"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:text="@string/textview4"
+                    android:textSize="35dp"
+                    android:paddingLeft="65dp"
+                    android:paddingRight="23dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView4"
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/index"
+        android:gravity="center|center_horizontal"
+        android:layout_weight="12">
+
+        <Button
+            android:text="@string/buttonleft"
+            android:textSize="50dp"
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:id="@+id/buttonleft"
+            android:inputType="text"
+            />
+
+        <Button
+            android:text="@string/buttonanswer"
+            android:textSize="50dp"
+            android:inputType="text"
+            android:layout_width="200dp"
+            android:layout_height="120dp"
+            android:id="@+id/buttonanswer"
+            />
+
+        <Button
+            android:text="@string/buttonright"
+            android:textSize="50dp"
+            android:inputType="text"
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:id="@+id/buttonright"
+            />
+
+    </LinearLayout>
+</LinearLayout>
